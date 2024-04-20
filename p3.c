@@ -1,4 +1,4 @@
-// pointers practice
+// pointers practice of deferencing.
 
 # include <stdio.h> 
 int main( ) 
@@ -17,7 +17,7 @@ int main( )
   
  printf("result = %d\n", *ptr2);
 
- //printf("result = %d\n", *i); error
+ //printf("result = %d\n", *i); segmentation fault error because we can't do deferencing with normal variable
   
  printf("result = %x\n", ptr1);
   
